@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {font-family:"Counter-Strike Extruded";src:url("cs_extruded.eot?") format("eot"),url("cs_extruded.woff") format("woff"),url("cs_extruded.ttf") format("truetype"),url("cs_extruded.svg#Counter-StrikeExtruded") format("svg");font-weight:normal;font-style:normal;}
+
+* {
+  padding: 0;
+  margin: 0
+}
+
+header div {
+  width: 30%;
+}
+
+.ubicacionProductos {
+  width: 80%
+}
+
+.imagenDetalle {
+  height: 10rem;
+}
+.roboto{
+  font-family: "Counter-Strike extruded";
+}
+
+.card {
+  max-width: 350px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 5px 8px 8px rgba(100, 210, 200, 1);
+}
+
+.card img {
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 2px;
+  font-family: "Counter-Strike extruded"
+}
+
+.price {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 2px;
+  font-family: "Counter-Strike extruded"
+}
+
+.buy-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+    text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.1s;
+  margin: 2px;
+  position: sticky;
+  bottom: -1000px;
+    
+}
+
+.buy-button:hover {
+   background-color: #22c55e;
+   
+}
+
+body {
+  @apply bg-csgo-bg font-sans;
+}
+
+.bg-csgo-bg {
+  background-color: #1c1c1c;
+}
+
+.bg-csgo-form {
+  background-color: #252525;
+}
+
+.border-csgo-main {
+  border-color: #eb4b4b;
+}
+
+.border-csgo-accent {
+  border-color: #ffffff;
+}
+
+.text-csgo-main {
+  color: #eb4b4b;
+}
+
+.text-csgo-accent {
+  color: #ffffff;
+}
+
+.bg-csgo-main {
+  background-color: #eb4b4b;
+}
+
+.bg-csgo-hover:hover {
+  background-color: #d23434;
+}
+
+.focus\:border-csgo-main:focus {
+  border-color: #eb4b4b;
+}
+
+.focus\:shadow-outline:focus {
+  box-shadow: 0 0 0 3px rgba(235, 75, 75, 0.5);
+}
